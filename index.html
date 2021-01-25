@@ -1,0 +1,32 @@
+<!-- Author: Thi Hoai An Le-000798006
+    December, 10 2020
+    This is a login Form
+-->
+
+<!DOCTYPE html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="js/logIn.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <div class="loginbox">
+        <h1>Login Here</h1>
+        <form method='POST' id = "loginForm">
+            <p>Username</p>
+            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" name="password" id= "password" placeholder="Enter Password" required>
+            <div id = "message"> </div>
+            <input type="submit" name="click" value="Login">
+            <a href="signUp.html">Create an account</a>
+        </form>
+     
+    </div>
+</body>
+
+</html>
